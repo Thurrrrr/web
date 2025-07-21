@@ -4,16 +4,124 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aula com GitHub</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <h1>Bem vindo á primeira aula de guitHub</h1>
-    <p>Esta é uma aula de intodução ao Guit</p>
+    <div class="container py-4">
+      <h1 class="mb-3">Bem vindo á primeira aula de gitHub</h1>
+      <p class="lead">Esta é uma aula de intodução ao Git</p>
 
-    <h2>Conteudo da Aula</h2>
-    <ul>
-      <li>Introdução ao git</li>
-      <li>Comandos basicos do git</li>
-      <li>Trabalho com repositório</li>
-    </ul>
+      <h2 class="mt-4">Conteúdo da Aula</h2>
+      <div class="row mt-3">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Introdução ao git</h5>
+              <p class="card-text">
+                O que é o Git, para que serve e por que usar.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Comandos básicos do git</h5>
+              <p class="card-text">
+                Aprenda os comandos essenciais para começar a usar o Git.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Trabalho com repositório</h5>
+              <p class="card-text">
+                Como criar, clonar e gerenciar repositórios no Git.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="carousel-section">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://www.patasdacasa.com.br/sites/default/files/styles/article_detail_desktop/public/inline-images/chow%20chow_4.jpg.webp?itok=PI1N7bXj"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://www.patasdacasa.com.br/sites/default/files/styles/article_detail_desktop/public/inline-images/akita_0.jpg.webp?itok=rYkOMaPu"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://www.patasdacasa.com.br/sites/default/files/styles/article_detail_desktop/public/inline-images/pequines_0.jpg.webp?itok=gW87lzeG"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+      integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
